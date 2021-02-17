@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/deletecal"
+            android:title="Delete All Calories"
+
+            />
+        <item
+            android:id="@+id/ClearPreset"
+            android:title="Remove A Favorite Food"
+            />
+         <item
+        android:id="@+id/Add"
+        android:title="Add Other Calories"
+         />
+        <item
+            android:id="@+id/deleteAllPresets"
+            android:title="Remove All Favorite Foods"
+            />
+
+</menu>

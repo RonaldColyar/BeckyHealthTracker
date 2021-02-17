@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#654646"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Preset_Pop_Up">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Profilecard"
+        android:layout_width="168dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:background="#fff"
+            app:srcCompat="@drawable/beckyimage" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="214dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/popupround"
+        android:text="Add Favorite Meal/Snack"
+        app:layout_constraintEnd_toEndOf="@+id/typeEntry"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="@+id/typeEntry"
+        app:layout_constraintTop_toBottomOf="@+id/typeEntry" />
+
+    <EditText
+        android:id="@+id/idEntry"
+        android:layout_width="285dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="*ID(Useless For this version)"
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Profilecard" />
+
+    <EditText
+        android:id="@+id/CaloriesEntry"
+        android:layout_width="285dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Calories of meal/snack."
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idEntry" />
+
+    <EditText
+        android:id="@+id/NameEntry"
+        android:layout_width="285dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="11dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Name of Meal/Snack."
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/CaloriesEntry"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/CaloriesEntry"
+        app:layout_constraintTop_toBottomOf="@+id/CaloriesEntry" />
+
+    <EditText
+        android:id="@+id/typeEntry"
+        android:layout_width="285dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="Type Of Meal/Snack"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/NameEntry"
+        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintStart_toStartOf="@+id/NameEntry"
+        app:layout_constraintTop_toBottomOf="@+id/NameEntry" />
+</androidx.constraintlayout.widget.ConstraintLayout>

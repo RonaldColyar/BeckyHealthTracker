@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "215706224119",
+    "firebase_url": "https://becky-6efc5.firebaseio.com",
+    "project_id": "becky-6efc5",
+    "storage_bucket": "becky-6efc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215706224119:android:b2394553f4ea19050d5af2",
+        "android_client_info": {
+          "package_name": "com.ex.becky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215706224119-ai57ued5vmic5md02de9p0p96i6u1u1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaz9rzSds1RptcURwJjYR3aBSym6kaSpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215706224119-ai57ued5vmic5md02de9p0p96i6u1u1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
